@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+  }
+
+  body {
+    background-color: #010714;
+  }
+  :root {
+    --primary-color: #04b3ab;
+    --secondary-color: #010714;
+    --grey-color: #333333;
+    --black-color: #000;
+    --white-color: #fff;
+  }
+
+  a {
+    color: var(--white-color);
+  }
+  .sys {
+    color: var(--primary-color);
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    transition: background-color 0.3s ease;
+  }
+  /* ============Hero Section============ */
+  .hero-section{
+    background-image:linear-gradient(to bottom, rgb(1, 7, 20,0.60), rgb(1, 7, 20,0.95)),url('../images/about/about-us.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .hero-section-content{
+    padding-bottom: 50px;
+    padding-top: 23rem !important;
+  }
+  .hero-section-content h2,p{
+    color: var(--white-color);
+  }
+  .hero-section-content h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 5rem;
+  }
+  .hero-section-content p{
+    font-size: 30px;
+  }
+  @media (max-width: 992px){
+    .hero-section-content{
+      padding-bottom: 25px;
+      padding-top: 20rem !important;
+    }
+  }
+  @media (max-width: 768px) {
+    .hero-section-content p{
+      font-size: 22px;
+    }
+    .hero-section-content{
+      padding-bottom: 20px;
+      padding-top: 22rem !important;
+    }
+  }
+  @media (max-width: 576px) {
+    .hero-section-content p{
+      font-size: 13px;
+    }
+    .hero-section-content h2{
+    font-size: 45px;
+    }
+  }
+  /* ===============Who We Are Section start===================== */
+  #who-we-are-content h1{
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .who-we-are-h2{
+    font-size: 50px;
+    color: var(--white-color);
+    margin-top: 30px
+  }
+  .who-we-are-h4{
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--white-color);
+  }
+  .who-we-are-left{
+    margin-top: 8rem !important;
+  }
+  .who-we-are-left p{
+    color: var(--primary-color);
+  }
+  .who-we-are-img{
+    border-radius: 20px;
+  }
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .metric h2 {
+    font-size: 36px;
+    color: var(--white-color);
+  }
+
+  .metric p {
+    font-size: 16px;
+    color:var(--white-color);
+  }
+  @media (max-width: 768px) {
+    .who-we-are-left{
+      margin-top: 1rem !important;
+    }
+    .who-we-are-h2 {
+      font-size: 42px;
+    }
+    .who-we-are-h2 {
+      font-size: 15px;
+      line-height: 35px;
+    }
+  }
+  @media (max-width: 576px) {
+    .who-we-are-h2 {
+      font-size: 35px;
+    }
+    .who-we-are-h4{
+      font-size: 14px;
+      line-height: 30px;
+    }
+    #who-we-are-content h1{
+      font-size: 45px;
+    }
+    .metrics{
+      gap: 50px;
+    }
+  }
+  /* ==============services==================== */
+  .card-body {
+    background-color: var(--white-color);
+    border-radius: 10px;
+  }
+
+  .card {
+    border-radius: 12px;
+  }
+
+  .section_two {
+    background-color: var(--secondary-color);
+  }
+
+  .para p {
+    color: #a09e9e;
+    font-size: 20px;
+  }
+
+  .para h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 40px 0;
+  }
+
+  .card_text h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 15px 0;
+  }
+
+  .card_text p {
+    font-size: 14px;
+    margin: 10px 0;
+    color: var(--black-color);
+  }
+
+  .image {
+    width: 25%;
+  }
+  @media (max-width: 768px) {
+    .para h2 {
+      font-size: 20px;
+    }
+  }
+  /* ==================Footer====================== */
+  /* ===============Footer=================== */
+.footer .list a:hover {
+  color: #02fff0;
+  text-decoration: none;
+}
+.footer h2 {
+  color: var(--white-color);
+  font-size: 25px;
+}
+
+.footer li {
+  list-style: none;
+  font-size: 16px;
+  margin: 15px 0px;
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: var(--primary-color);
+  color: var(--white-color);
+}

@@ -1,0 +1,72 @@
+.contact-section h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.contact-section .col-6 {
+    padding-left: 0px;
+    padding-right: 8px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    background-color: transparent;
+}
+
+.contact-section .custom-input,
+.contact-section .custom-textarea {
+    border: none;
+    border-bottom: 2px solid rgb(156, 154, 154);
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.contact-section .custom-input:focus,
+.contact-section .custom-textarea:focus {
+    border-bottom: 2px solid rgb(156, 154, 154);
+    background-color: transparent;
+
+}
+
+.contact-section label {
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.contact-section .btn-gradient {
+    background: var(--primary-color);
+    color: var(--black-color);
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+
+.contact-section .btn-gradient:hover {
+    background: white;
+    color: black;
+    transition: 0.2s ease-in;
+}
+
+.contact-section .custom-input,
+.contact-section .custom-textarea {
+    outline: none;
+}
+
+.contact-section .custom-input:focus,
+.contact-section .custom-textarea:focus {
+    border-color: #1890ff;
+    box-shadow: none;
+}
+
+.contact-section i {
+    font-size: 30px;
+}
+
+.contact-section .card {
+    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    /* box-shadow: rgba(228, 228, 228, 0.205) 0px 7px 29px 0px; */
+    box-shadow: rgba(99, 99, 99, 0.747) 0px 2px 8px 0px;
+}
+

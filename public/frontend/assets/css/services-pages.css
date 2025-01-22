@@ -1,0 +1,105 @@
+
+  /* ==============Hero Section start============= */
+  .hero {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+  }
+  .main-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .med-h1{
+    padding-top: 8rem !important;
+    padding-left: 2rem;
+   text-align: left ;
+   line-height: 5rem;
+  }
+  .txt-col h1 {
+    font-size: 60px;
+    color: var(--white-color);
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+  /* ==================hero section==================== */
+  .services-pages-hero-section{
+    padding: 5rem 0;
+  }
+  .services-pages-main-img img{
+    height: 400px;
+    border-radius: 20px;
+  }
+  @media (max-width: 768px) {
+    .services-pages-main-img img{
+      max-height: 300px;
+      display: flex;
+      margin: auto 0;
+    }
+  }
+  @media (max-width: 576px) {
+    .services-pages-main-img img{
+      max-height: 170px;
+    }
+  }
+  .main-container h1{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .main-container p, h6{
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .hero-section-btn{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-radius: 50px;
+  }
+  .hero-section-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+
+  /* ==================services-cover==================== */
+  .services-cover{
+    padding: 5rem 0;
+  }
+  /* ==================quick facts==================== */
+  .quick-facts{
+    padding: 4rem 0;
+  }
+  /* ==================services options==================== */
+  .services-option{
+    padding: 4rem 0;
+  }
+  /* ==================code quentity==================== */
+  .code-quality{
+    padding: 4rem 0;
+  }
+
+  /* ====btn==== */
+  .btn{
+    border-radius: 50px;
+  }
+

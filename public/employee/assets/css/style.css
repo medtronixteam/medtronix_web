@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: black ;
+}
+a:hover {
+    text-decoration: none ;
+    color: rgba(58, 57, 57, 0.897) !important;
+    transition: all 0.5s ease;
+}
+
+  .btn-check:focus+.btn,
+  .btn:focus {
+    outline: 0 !important;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.09), 0 2px 3px -1px rgba(0, 0, 0, 0.07);
+  }
+.btn-primary {
+    color: #fff;
+    background-color: black !important;
+    border-color: black !important;
+  }
+  .btn-primary:active,
+  .btn-primary:focus {
+    background-color: black !important ;
+    border-color: black !important ;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: black !important;
+    border-color: black !important;
+  }
+
+  .btn-check:focus+.btn-primary,
+  .btn-primary:focus {
+    color: #fff;
+    background-color: black !important;
+    border-color: black !important ;
+    box-shadow: 0 0 0 0.2rem rgba(211, 48, 173, 0.5);
+  }
+
+  .btn-check:checked+.btn-primary,
+  .btn-check:active+.btn-primary,
+  .btn-primary:active,
+  .btn-primary.active,
+  .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: black !important;
+    border-color: black !important ;
+  }
+
+  .btn-check:checked+.btn-primary:focus,
+  .btn-check:active+.btn-primary:focus,
+  .btn-primary:active:focus,
+  .btn-primary.active:focus,
+  .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(211, 48, 173, 0.5);
+  }
+
+  .btn-primary:disabled,
+  .btn-primary.disabled {
+    color: #fff;
+    background-color: black !important;
+    border-color: black !important;
+  }
+body {
+    height: 100vh;
+    justify-content: center;
+    background: #f4f7f8;
+    padding-bottom: 80px;
+}
+
+.card-body {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    font-family: "feather";
+    content: "";
+    font-size: 0.75rem;
+}
+
+.dashboard-header .bell-icon {
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background-color: black;
+    color: white !important;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navbar-bottom {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px 0;
+    background: #fff;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .05);
+    z-index: 1001;
+}
+
+.navbar-bottom a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+    border-radius: 20px;
+    background: transparent;
+    transition: all .25s ease;
+}
+
+.navbar-bottom a:hover {
+    text-decoration: none;
+}
+
+.navbar-bottom a:active:not(.plus) {
+    transform: scale(1.2);
+}
+
+.navbar-bottom a.active {
+    background-color: black;
+    color: white !important;
+}
+
+.navbar-bottom a i {
+    font-size: 1.5rem;
+    pointer-events: none;
+}
+
+.navbar-bottom a.plus {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: black;
+    border-radius: 25px;
+    margin-top: -50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar-bottom a.plus:hover {
+    transform: translateY(-4px);
+}
+
+/* Effect styling for plus button */
+.navbar-bottom .effect {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    border-radius: 18px;
+    background: black;
+    opacity: 0;
+}
+
+@media (max-width: 768px) {
+    .navbar-bottom {
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 10px 0;
+        background: #fff;
+        border-radius: 30px 30px 0 0;
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, .05);
+        z-index: 1001;
+        flex-wrap: nowrap !important;
+    }
+
+    .navbar-bottom a i {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:420px) {
+    .navbar-bottom a.plus {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background: black;
+        border-radius: 25px;
+        margin-top: -50px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+@media (min-width: 768px) {
+    body {
+        padding-bottom: 80px;
+    }
+}
