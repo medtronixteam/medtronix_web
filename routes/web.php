@@ -82,11 +82,17 @@ Route::middleware(['auth'])->group(function () {
     Route::get('dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
 });
 
-Route::get('/update/db', function () {
-    $path = storage_path('medtyeyo_medtronix.sql');
+
+Route::get('/import-sql', function () {
+    $path = public_path('medtyeyo_medtronix.sql'); // Path to your .sql file
     $sql = file_get_contents($path);
 
-   DB::unprepared($sql);
+    try {
+        DB::unprepared($sql); // Execute the SQL script
+        return 'SQL file imported successfully!';
+    } catch (\Exception $e) {
+        return 'Error: ' . $e->getMessage();
+    }
 });
 Route::middleware(['auth', 'admin'])->group(function () {
 
