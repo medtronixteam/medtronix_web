@@ -27,7 +27,8 @@ jobs:
           cd ..
           sudo docker compose build medtronix-backend
           sudo docker compose up medtronix-backend -d
-         # docker exec  contact-backend-1 sh -c "sleep 60 && php artisan migrate --seed --force"          
+          docker exec contact-medtronix-backend-1 sh -c "sleep 60 && php artisan migrate; php artisan storage:unlink; php artisan storage:link; php artisan optimize:clear"
+         
           exit
         EOF
 
