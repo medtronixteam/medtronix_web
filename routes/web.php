@@ -21,6 +21,7 @@ use App\Http\Controllers\TodoController;
 use App\Http\Controllers\WaitlistController;
 use App\Http\Controllers\UpdateEmployeeController;
 use App\Http\Controllers\UpdateRequestController;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
 // ================== MainController
@@ -81,6 +82,12 @@ Route::middleware(['auth'])->group(function () {
     Route::get('dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
 });
 
+Route::get('/update/db', function () {
+    $path = storage_path('medtyeyo_medtronix.sql');
+    $sql = file_get_contents($path);
+
+   DB::unprepared($sql);
+});
 Route::middleware(['auth', 'admin'])->group(function () {
 
     Route::post('settings/qrCode', [SettingController::class, 'generate'])->name('settings.qrCode');
