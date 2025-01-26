@@ -315,3 +315,14 @@ Route::get('/email/verify/{id}/{hash}', function (EmailVerificationRequest $requ
 
     return redirect('/dashboard');
 })->middleware(['signed', 'auth'])->name('verification.verify');
+
+use Illuminate\Support\Facades\Artisan;
+
+Route::get('/run-db-wipe', function () {
+    try {
+        Artisan::call('db:wipe'); // Run the db:wipe command
+        return 'Database wiped successfully!';
+    } catch (\Exception $e) {
+        return 'Error: ' . $e->getMessage();
+    }
+});
