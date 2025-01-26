@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Generation Time: Jan 21, 2025 at 11:43 PM
--- Server version: 10.6.20-MariaDB-cll-lve-log
--- PHP Version: 8.3.15
+-- Host: 127.0.0.1
+-- Generation Time: Jan 26, 2025 at 10:40 AM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.1.17
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -65,67 +65,6 @@ CREATE TABLE `appointments` (
   `message` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Dumping data for table `appointments`
---
-
-INSERT INTO `appointments` (`id`, `name`, `email`, `department`, `created_at`, `updated_at`, `message`) VALUES
-(1, 'Adam', 'fredrikalfredsson76@gmail.com', 'General info', '2024-09-12 13:35:10', '2024-09-12 13:35:10', 'Hello, \r\n \r\nAdam here from Deletify (https://deletify.com/) \r\n \r\nI\'m wondering if your business has a review on Google that you perceive as misleading, false, or perhaps even written by a competitor? If so, I can help you remove it, and you only pay if I succeed. My teams success rate is over 99%, and it takes us less than a week to get it removed. \r\n \r\nInterested? \r\n \r\nIf you prefer to call me, you can reach me at +1 917 720 3356. My Whatsapp number is +46 72-4473401 (you can also call me at that number too), or you can book a quick videocall at https://calendly.com/aw--u2_r/15min'),
-(2, 'AmandaPrioge1', 'amandaLayelpb@gmail.com', 'General info', '2024-09-12 19:09:02', '2024-09-12 19:09:02', 'Want to see more? Check my profile now. -  https://rb.gy/7rnhss?Heelftom'),
-(3, 'Davidmipse', 'kayleighbpsteamship@gmail.com', 'General info', '2024-09-14 03:08:31', '2024-09-14 03:08:31', 'Dia duit, theastaigh uaim do phraghas a fháil.'),
-(4, 'Mike Wayne', 'mikeAvoillalam@gmail.com', 'General info', '2024-09-15 07:20:47', '2024-09-15 07:20:47', 'Hello \r\nThis is Mike Wayne\r\nfrom Strictly Digital \r\n \r\nLet me present to you our latest discovered from the SEO environment. \r\nWe have noticed that getting backlinks from websites that have high SEO metrics values doesn\'t always help, and in fact, what is more important is to have backlinks from sites that are actually ranking for many keywords. \r\n \r\nThus, we have built this service especially to meet these new discoveries and the results are astonishing. \r\n \r\nPlease check more details here: \r\nhttps://www.seostrictly.net/semrush-links/ \r\n \r\n \r\n \r\nRegards, \r\nStrictly Digital SEO Team \r\n \r\nWhatsapp us for more details: \r\nhttps://www.seostrictly.net/whatsapp-us/'),
-(5, 'Jackmipse', 'yjdisantoyjdissemin@gmail.com', 'General info', '2024-09-15 11:58:54', '2024-09-15 11:58:54', 'Szia, meg akartam tudni az árát.'),
-(6, 'Tedmipse', 'kayleighbpsteamship@gmail.com', 'General info', '2024-09-16 01:12:18', '2024-09-16 01:12:18', 'Aloha, makemake wau eʻike i kāu kumukūʻai.'),
-(7, 'AmandaPriogeb', 'amandaLayelpc@gmail.com', 'General info', '2024-09-16 19:52:32', '2024-09-16 19:52:32', 'Want to see more? Check my profile now. -  https://rb.gy/7rnhss?Heelftom'),
-(8, 'Denendusy', 'ch.ebaku.l.i.n.akara.se.v.n.a@gmail.com', 'General info', '2024-09-17 09:46:05', '2024-09-17 09:46:05', 'Mysimba - Quick and Easy Weight Lass \r\n \r\nMysimba is a medicine used along with diet and exercise to help manage weight in adults: \r\n \r\nwho are obese (have a body-mass index - BMI - of 30 or more); \r\nwho are overweight (have a BMI between 27 and 30) and have weight-related complications such as diabetes, abnormally high levels of fat in the blood, or high blood pressure. \r\nBMI is a measurement that indicates body weight relative to height. \r\n \r\nMysimba contains the active substances naltrexone and bupropion. \r\n \r\nhttps://cutt.ly/RezL73vz'),
-(9, 'AmandaPrioge3', 'amandaLayelp2@gmail.com', 'General info', '2024-09-20 06:12:22', '2024-09-20 06:12:22', 'Explore my profile, let’s make it unforgettable. -  https://rb.gy/7rnhss?Heelftom'),
-(10, 'Husam Orabi', 'husamorabi447@gmail.com', 'General info', '2024-09-21 05:52:02', '2024-09-21 05:52:02', 'Hello, \r\n \r\nI am Husam Orabi, Qatari Investors Group\'s chief business development and delivery officer. We offer loans and credit facilities at a small interest rate for ten years and a moratorium of up to two years. \r\nWe also finance profit-oriented projects and businesses. We understand that each business is unique, so let us know what you need for your business, and we will tailor our financing to suit your specific requirements. \r\n \r\nRegards, \r\n \r\nHusam Orabi \r\nCHIEF BUSINESS DEVELOPMENT & DELIVERY OFFICER \r\n \r\nMobile: +971524239312 \r\nWhatsapp: +971524239312 \r\nhusam@qatarinvestors-group.com'),
-(11, 'Davidmipse', 'kayleighbpsteamship@gmail.com', 'General info', '2024-09-21 07:29:21', '2024-09-21 07:29:21', 'Hej, jeg ønskede at kende din pris.'),
-(12, 'Martim Maes', 'info@speedseo.top', 'General info', '2024-09-21 20:32:33', '2024-09-21 20:32:33', 'Hi there, \r\n \r\nI recently reviewed the rankings for medtronix.world, and I’m sorry to say that there are several areas where it\'s underperforming. \r\n \r\nUnfortunately, simply building more links won’t fix the problem. With Google’s major updates over the past year, it\'s become essential to have a well-structured, search engine-friendly website to achieve competitive rankings. \r\n \r\nWe recommend implementing a strategic website redesign to address these issues and improve your search visibility. You can find more details here: \r\nhttps://www.speedseonet.com/web-design/ \r\n \r\nThank you for considering this, \r\nMartim Maes\r\n \r\n \r\nSpeed Designs \r\nContact Us on WhatsApp \r\nhttps://www.speedseonet.com/whatapp-us/'),
-(13, 'AmandaPrioge2', 'amandaLayelp3@gmail.com', 'General info', '2024-09-22 15:23:16', '2024-09-22 15:23:16', 'Want to see more? Check my profile now. -  https://rb.gy/7rnhss?Heelftom'),
-(14, 'Masonmipse', 'yjdisantoyjdissemin@gmail.com', 'General info', '2024-09-22 19:13:02', '2024-09-22 19:13:02', 'Sveiki, es gribēju zināt savu cenu.'),
-(15, 'Tedmipse', 'kayleighbpsteamship@gmail.com', 'General info', '2024-09-22 22:07:50', '2024-09-22 22:07:50', 'Salut, ech wollt Äre Präis wëssen.'),
-(16, 'Berndt Schmidt', 'no-replyxxx@gmail.com', 'General info', '2024-09-23 07:49:07', '2024-09-23 07:49:07', 'Hello, \r\n \r\nI\'m Mike from Monkey Digital, and I want to introduce you to one of our most popular services—10,000 social ads visits for just $10. \r\n \r\nIt’s an effective and affordable way to drive real traffic to your website. Here’s how it works: \r\n \r\n•	Your ad goes live within hours. \r\n•	You’ll receive detailed tracking the same day. \r\n•	All for just $10! \r\n \r\nLearn more and get started here: https://www.monkeyseo.net/get-started/ \r\n \r\nGet Started with Monkey Digital, Try it out—it’s worth every penny. \r\n \r\nBest regards, \r\nBerndt from Monkey Digital.\r\n \r\nMonkey Digital \r\nContact Us via WhatsApp: \r\nhttps://www.monkeyseo.net/whatsapp-us/'),
-(17, 'Modesta', 'info@vinci.xbags.shop', 'General Information Request', '2024-09-25 01:54:21', '2024-09-25 01:54:21', 'New Multifunction Anti-theft Waterproof Sling Bag\r\n\r\nThe best ever SUPER Sling Bag: Drop-proof/Anti-theft/Scratch-resistant/USB Charging\r\n\r\n50% OFF for the next 24 Hours ONLY + FREE Worldwide Shipping for a LIMITED time\r\n\r\nBuy now: https://xbags.shop\r\n\r\nBest Wishes, \r\n\r\nModesta'),
-(18, 'AmandaPrioge3', 'amandaLayelpa@gmail.com', 'General info', '2024-09-27 04:16:33', '2024-09-27 04:16:33', 'Come closer, find me waiting on my profile. -  http://girlsfunonline.online/?Heelftom'),
-(19, 'Peter Petitson', 'no-replyxxx@gmail.com', 'General info', '2024-09-27 07:11:43', '2024-09-27 07:11:43', 'Hi there, \r\n \r\nWhile reviewing your medtronix.world ranking, I noticed several toxic backlinks that could be harming its performance. \r\n \r\nWe’re offering a free backlink cleanup to help you remove these harmful links and boost your rankings quickly. \r\nTake advantage of this free offer here: \r\nhttps://www.hilkom-seo.com/free-links-cleanup/ \r\n \r\n \r\nIt’s effective, fast, and completely free. Start improving your site’s ranking today! \r\n \r\n \r\nBest regards \r\nPeter Petitson\r\n \r\nWhatsapp: https://wa.link/rx6lkm'),
-(20, 'Samuel Diaz', 'tice.wilburn45@yahoo.com', 'General Information Request', '2024-09-30 11:33:35', '2024-09-30 11:33:35', 'Hey,\r\n\r\nWanting to boost your online presence or business without overspending? Fiverr offers a broad selection of options—anything from graphic design to website creation, beginning as low as $5!\r\n\r\nWhether you are looking for a logo, site improvement, marketing help, or another service, Fiverr matches you with skilled freelancers ready to get the task done quickly and within your budget.\r\n\r\nExplore it here: https://bit.ly/fiverr-professional-services\r\n\r\nThanks,\r\n\r\n\r\n\r\n\r\nIf you are willing to unsubcribe from these attractive newsletters, please fill the form at https://bit.ly/unsubscribenews'),
-(21, 'AmandaPriogeb', 'amandaLayelpc@gmail.com', 'General info', '2024-10-01 00:15:59', '2024-10-01 00:15:59', 'Curious? Dive deeper and find me here now. -  https://bit.ly/3Y2npoM?Heelftom'),
-(22, 'AmandaPrioge2', 'amandaLayelp1@gmail.com', 'General info', '2024-10-03 01:42:15', '2024-10-03 01:42:15', 'Come closer, find me waiting on my profile. -  https://rb.gy/ycu4is?Heelftom'),
-(23, '* * * Get Free Bitcoin Now: https://kapital-nedvizhimost.ru/files/9s1ncz.php?hry423 * * * hs=5fd077770e10b3d5f1578a7ddd44ae18*', 'pazapz@mailbox.in.ua', 'About Courses', '2024-10-03 08:37:56', '2024-10-03 08:37:56', 'g1rxxy'),
-(24, '* * * Unlock Free Spins Today: https://kapital-nedvizhimost.ru/files/9s1ncz.php?hry423 * * * hs=5fd077770e10b3d5f1578a7ddd44ae18*', 'pazapz@mailbox.in.ua', 'Software Licencing', '2024-10-03 08:37:57', '2024-10-03 08:37:57', 'ua6xe5'),
-(25, '* * * <a href=\"https://kapital-nedvizhimost.ru/files/9s1ncz.php?hry423\">Snag Your Free Gift</a> * * * hs=5fd077770e10b3d5f1578a7ddd44ae18*', 'pazapz@mailbox.in.ua', 'About Courses', '2024-10-03 08:38:00', '2024-10-03 08:38:00', '9l7o2o'),
-(26, '* * * <a href=\"https://kapital-nedvizhimost.ru/files/9s1ncz.php?hry423\">Get Free Bitcoin Now</a> * * * hs=5fd077770e10b3d5f1578a7ddd44ae18*', 'pazapz@mailbox.in.ua', 'Software Licencing', '2024-10-03 08:38:01', '2024-10-03 08:38:01', 'edrzxl'),
-(27, 'Keill Petitson', 'no-replyxxx@gmail.com', 'General info', '2024-10-03 17:39:17', '2024-10-03 17:39:17', 'Hi \r\n \r\nWant to dominate your local market and stand out in regional searches? Country-specific TLD backlinks are your secret weapon to supercharge your local SEO and outshine your competition. \r\n \r\nhttps://www.unlimitedgoogle.com/links-by-country/ \r\n \r\nAt Digital X Press SEO agency, we specialize in providing high-quality backlinks from trusted country-specific top-level domains (TLDs) like .uk, .de, .ca, .au, and more! These powerful backlinks help you: \r\n \r\n•	Rank higher in local search results \r\n•	Increase your domain authority in targeted regions \r\n•	Attract more relevant, local traffic \r\n•	Boost credibility in your market \r\n \r\nCheck out more details here: \r\nhttps://wa.link/s6vpcy \r\n \r\nWhy Country TLD Backlinks? \r\nBacklinks from country-specific domains signal trust to search engines in regional markets. Whether you’re expanding your business globally or focusing on a specific country, these backlinks enhance your local SEO performance and drive relevant customers to your website. \r\n \r\nLimited Time Offer! \r\nFor a short time, we’re offering a special 25% discount (coupon: PARADOX on our Country TLD Backlink packages. Boost your local visibility and get the edge over your competition with trusted, authoritative backlinks. \r\n \r\nhttps://www.unlimitedgoogle.com/links-by-country/ \r\n \r\nReady to dominate your local search results? \r\nContact us on Whatsapp: https://wa.link/s6vpcy to learn more about our exclusive offer and start ranking higher today! \r\n \r\nBest regards, \r\nKeill Petitson\r\nDigital X SEO Experts \r\nDigital X Press \r\nhttps://www.unlimitedgoogle.com/links-by-country/'),
-(28, 'Tedmipse', 'kayleighbpsteamship@gmail.com', 'General info', '2024-10-04 18:31:14', '2024-10-04 18:31:14', 'Hola, volia saber el seu preu.'),
-(29, 'Davidmipse', 'kayleighbpsteamship@gmail.com', 'General info', '2024-10-04 21:18:12', '2024-10-04 21:18:12', 'Sawubona, bengifuna ukwazi intengo yakho.'),
-(30, 'AmandaPriogeb', 'amandaLayelp2@gmail.com', 'General info', '2024-10-05 11:17:55', '2024-10-05 11:17:55', 'Curious? Dive deeper and find me here now. -  https://rb.gy/ycu4is?Heelftom'),
-(31, 'Masonmipse', 'yjdisantoyjdissemin@gmail.com', 'General info', '2024-10-06 05:51:36', '2024-10-06 05:51:36', 'Hæ, ég vildi vita verð þitt.'),
-(32, '<strong><a href=\"https://pr-site.com\">primer-1</a></strong>', 'thomaskingial13@gmail.com', 'General info', '2024-10-07 19:14:21', '2024-10-07 19:14:21', '<strong><a href=\"https://pr-site.com\">primer-8</a></strong>'),
-(33, 'AmandaPrioge1', 'amandaLayelpb@gmail.com', 'General info', '2024-10-08 09:31:40', '2024-10-08 09:31:40', 'I can\'t wait any longer... come over tonight and let\'s make it unforgettable. -  https://rb.gy/ycu4is?Heelftom'),
-(34, 'Tedmipse', 'kayleighbpsteamship@gmail.com', 'General info', '2024-10-08 15:50:46', '2024-10-08 15:50:46', 'Szia, meg akartam tudni az árát.'),
-(35, 'Royce', 'medtronix.world@t-online.com', 'General Information Request', '2024-10-09 01:49:54', '2024-10-09 01:49:54', 'Morning \r\n \r\nDefrost frozen foods in minutes safely and naturally with our THAW KING™. \r\n\r\n50% OFF for the next 24 Hours ONLY + FREE Worldwide Shipping for a LIMITED \r\n\r\nBuy now: https://thawking.shop\r\n \r\nCheers, \r\n \r\nRoyce'),
-(36, 'AmandaPriogec', 'amandaLayelpb@gmail.com', 'General info', '2024-10-12 07:44:05', '2024-10-12 07:44:05', 'I want you tonight... just the two of us, no distractions -  https://rb.gy/ycu4is?Heelftom'),
-(37, 'Jiirqen De Smet', 'no-replyAvoillalam@gmail.com', 'General info', '2024-10-12 16:49:08', '2024-10-12 16:49:08', 'Hi there, \r\n \r\nWant to supercharge your website\'s growth? Our Semrush Backlinks come from domains ranking for 5,000+ keywords, ensuring you get high-quality, authoritative links that will improve your SEO and help grow your business online. This is a powerful strategy to gain visibility, rank higher, and drive more traffic to your site. \r\n \r\nLearn more and order here: \r\nhttps://www.seostrictly.net/semrush-links/ \r\nOr chat with us on WhatsApp: https://wa.link/qz8zwo \r\n \r\nBest regards, \r\nDigital Strict Team'),
-(38, 'AmandaPrioge3', 'amandaLayelpb@gmail.com', 'General info', '2024-10-14 04:37:59', '2024-10-14 04:37:59', 'I can\'t wait any longer... come over tonight and let\'s make it unforgettable. -  https://rb.gy/ycu4is?Heelftom'),
-(39, 'Davidmipse', 'ibucezevuda439@gmail.com', 'General info', '2024-10-14 08:57:26', '2024-10-14 08:57:26', 'Szia, meg akartam tudni az árát.'),
-(40, 'Masonmipse', 'somasesokiyo31@gmail.com', 'General info', '2024-10-15 11:40:46', '2024-10-15 11:40:46', 'Здравейте, исках да знам цената ви.'),
-(41, 'AmandaPrioge3', 'amandaLayelp1@gmail.com', 'General info', '2024-10-16 13:30:05', '2024-10-16 13:30:05', 'I can\'t wait any longer... come over tonight and let\'s make it unforgettable. -  https://rb.gy/ycu4is?Heelftom'),
-(42, 'Tomas Pedersen', 'info@monkeydigital.top', 'General info', '2024-10-18 04:32:43', '2024-10-18 04:32:43', 'Hi there, \r\n \r\nBoost your website traffic with Country Targeted Social Ads for just $10! Get 10,000 visits from your desired location and reach a highly targeted audience, perfect for driving more leads and conversions. \r\n \r\nReady to supercharge your website? Start your campaign today: \r\nhttps://www.monkeydigital.top/affiliates/ \r\nOr connect with us on WhatsApp: https://wa.link/md1k3j \r\n \r\nBest regards, \r\nApe Reach Team \r\ninfo@monkeydigital.top'),
-(43, 'AmandaPrioge1', 'amandaLayelpb@gmail.com', 'General info', '2024-10-19 08:47:13', '2024-10-19 08:47:13', 'I can\'t wait any longer... come over tonight and let\'s make it unforgettable. -  https://rb.gy/ycu4is?Heelftom'),
-(44, 'Ole Karlsson', 'info@speedseo.top', 'General info', '2024-10-19 12:48:40', '2024-10-19 12:48:40', 'Hi there, \r\n \r\nIs your website struggling with poor rankings? An SEO-friendly web design is the key to fixing that! We specialize in creating responsive, optimized websites that enhance user experience and improve your search engine rankings. \r\n \r\nStart growing your business today with a powerful, SEO-boosted website: \r\nhttps://www.speedseo.top/seo-friendly-website-designs/ \r\nOr reach out to us on WhatsApp: https://wa.link/r5quk9 \r\n \r\nBest regards, \r\nSpeedProSEO Team \r\ninfo@speedseo.top'),
-(45, 'James Cook', 'jamescook312@outlook.com', 'General info', '2024-10-19 23:37:05', '2024-10-19 23:37:05', 'Dear sir/ma \r\nWe are a finance and investment company offering loans at 3% interest rate. We will be happy to make a loan available to your organisation for your project. Our terms and conditions will apply. Our term sheet/loan agreement will be sent to you for review, when we hear from you. Please reply to this email ONLY  hchoi382@gmail.com \r\n \r\nRegards. \r\nJames Cook'),
-(46, 'AmandaPriogeb', 'amandaLayelpa@gmail.com', 'General info', '2024-10-20 04:01:19', '2024-10-20 04:01:19', 'I can\'t wait any longer... come over tonight and let\'s make it unforgettable. -  https://rb.gy/ycu4is?Heelftom'),
-(47, 'Thierry Schmidt', 'info@monkeydigital.top', 'General info', '2024-10-20 04:53:05', '2024-10-20 04:53:05', 'Hi there, \r\n \r\nLooking for a way to earn passive income? Join our Affiliate Program and earn 35% commission on every sale you bring in—for life! Promote our products, and whenever your referral makes a purchase, you\'ll continue earning, even years later. \r\n \r\nSign up now for free: \r\nhttps://www.monkeydigital.top/country-visits/ \r\nOr chat with us on WhatsApp: https://wa.link/uqh66k \r\n \r\nBest regards, \r\nApe Reach Team \r\ninfo@monkeydigital.top'),
-(48, 'Tedmipse', 'axobajigufo34@gmail.com', 'General info', '2024-10-20 06:25:19', '2024-10-20 06:25:19', 'Zdravo, htio sam znati vašu cijenu.'),
-(49, 'X22Mof', 'vsglsndiyPr@xruma.store', 'General info', '2024-10-22 17:33:23', '2024-10-22 17:33:23', 'Hey people!!!!! \r\nGood mood and good luck to everyone!!!!!'),
-(50, 'Laiba Butt', 'libaaybutt07@gmail.com', 'About Courses', '2024-10-23 20:23:21', '2024-10-23 20:23:21', 'I need some skills of IT'),
-(51, 'Laiba Butt', 'libaaybutt07@gmail.com', 'About Courses', '2024-10-23 20:23:24', '2024-10-23 20:23:24', 'I need some skills of IT'),
-(52, 'Tedmipse', 'axobajigufo34@gmail.com', 'General info', '2024-10-24 16:23:01', '2024-10-24 16:23:01', 'Hi, ego volo scire vestri pretium.'),
-(53, 'AmandaPrioge3', 'amandaLayelpb@gmail.com', 'General info', '2024-10-26 00:32:24', '2024-10-26 00:32:24', 'I can\'t wait any longer... come over tonight and let\'s make it unforgettable. -  https://rb.gy/ycu4is?Heelftom'),
-(54, 'Per-Olof Evans', 'info@professionalseocleanup.com', 'General info', '2024-10-26 17:56:53', '2024-10-26 17:56:53', 'Hi there, \r\n \r\nWhile checking your medtronix.world for its ranks, I have noticed that there are some toxic links pointing towards it. \r\n \r\nGrab your free clean up and improve ranks in no time \r\nhttps://www.professionalseocleanup.com/ \r\n \r\nIt really works, get a free backlinks clean up with us today \r\n \r\nRegards \r\nMikePer-Olof Evans\r\n \r\nWhatsapp: https://wa.link/rx6lkm \r\nEmail us: info@professionalseocleanup.com'),
-(55, 'Jonathan Moody', 'info@prboostcolab.com', 'Software Licencing', '2024-10-28 11:04:25', '2024-10-28 11:04:25', 'Hi there,  \r\n\r\nI hope this message finds you well. I believe your brand needs more visibility.\r\n\r\nWe’re happy to offer a free article on Benzinga, which has over 14M+ visitors—a perfect way to build trust for your company and increase exposure at no cost.\r\n\r\nIn addition, for only $297, we’ll feature your business on affiliates of FOX, NBC, CBS, ABC, and more than 300 other news sites. Think of the exposure your brand could gain!\r\n\r\nThis offer is available only for the first 10 people who reply, so if you’d like to claim your free Benzinga article, just reply with \"\"YES, I would like to be featured in Benzinga!\"\"\r\n\r\nI’d be happy to help your brand get the recognition it deserves.\r\n\r\nBest, \r\nJonathan  \r\nPR Boost\r\n\r\n\r\n\r\n\r\nIn case you wish to stop to receive messages from me in the future, kindly reply back to this message saying the words: “No, I’m not interested”.');
-
 -- --------------------------------------------------------
 
 --
@@ -158,144 +97,6 @@ CREATE TABLE `chat_messages` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
---
--- Dumping data for table `chat_messages`
---
-
-INSERT INTO `chat_messages` (`id`, `name`, `email`, `message`, `website`, `is_admin`, `created_at`, `updated_at`) VALUES
-(1, 'rana', 'rana@gmail.com', 'hey', NULL, 0, '2024-07-19 10:53:36', '2024-07-19 10:53:36'),
-(2, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:19:08', '2024-07-19 11:19:08'),
-(3, 'user', 'test@gmail.com', 'how are you?', NULL, 0, '2024-07-19 11:19:18', '2024-07-19 11:19:18'),
-(4, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 11:22:06', '2024-07-19 11:22:06'),
-(5, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:30:57', '2024-07-19 11:30:57'),
-(6, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:35:01', '2024-07-19 11:35:01'),
-(7, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:36:22', '2024-07-19 11:36:22'),
-(8, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:37:40', '2024-07-19 11:37:40'),
-(9, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:41:09', '2024-07-19 11:41:09'),
-(10, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:42:12', '2024-07-19 11:42:12'),
-(11, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:44:26', '2024-07-19 11:44:26'),
-(12, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:46:49', '2024-07-19 11:46:49'),
-(13, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:47:24', '2024-07-19 11:47:24'),
-(14, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:48:36', '2024-07-19 11:48:36'),
-(15, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:49:25', '2024-07-19 11:49:25'),
-(16, 'user', 'test@gmail.com', 'i am good', NULL, 0, '2024-07-19 11:49:52', '2024-07-19 11:49:52'),
-(17, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:51:18', '2024-07-19 11:51:18'),
-(18, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 11:52:04', '2024-07-19 11:52:04'),
-(19, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 11:56:46', '2024-07-19 11:56:46'),
-(20, 'user', 'test@gmail.com', 'i am good', NULL, 0, '2024-07-19 13:48:54', '2024-07-19 13:48:54'),
-(21, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 13:53:11', '2024-07-19 13:53:11'),
-(22, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 13:54:17', '2024-07-19 13:54:17'),
-(23, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 13:55:16', '2024-07-19 13:55:16'),
-(24, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:12:01', '2024-07-19 14:12:01'),
-(25, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:14:09', '2024-07-19 14:14:09'),
-(26, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:16:55', '2024-07-19 14:16:55'),
-(27, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:19:19', '2024-07-19 14:19:19'),
-(28, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:20:58', '2024-07-19 14:20:58'),
-(29, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:21:37', '2024-07-19 14:21:37'),
-(30, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:24:40', '2024-07-19 14:24:40'),
-(31, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:25:25', '2024-07-19 14:25:25'),
-(32, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:26:36', '2024-07-19 14:26:36'),
-(33, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:27:54', '2024-07-19 14:27:54'),
-(34, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:28:54', '2024-07-19 14:28:54'),
-(35, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:31:16', '2024-07-19 14:31:16'),
-(36, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:34:41', '2024-07-19 14:34:41'),
-(37, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:37:03', '2024-07-19 14:37:03'),
-(38, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:37:33', '2024-07-19 14:37:33'),
-(39, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:38:55', '2024-07-19 14:38:55'),
-(40, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:40:40', '2024-07-19 14:40:40'),
-(41, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:44:36', '2024-07-19 14:44:36'),
-(42, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:48:45', '2024-07-19 14:48:45'),
-(43, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:51:56', '2024-07-19 14:51:56'),
-(44, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 14:52:45', '2024-07-19 14:52:45'),
-(45, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:56:52', '2024-07-19 14:56:52'),
-(46, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 14:58:23', '2024-07-19 14:58:23'),
-(47, 'user', 'test@gmail.com', 'HEY', NULL, 0, '2024-07-19 14:59:44', '2024-07-19 14:59:44'),
-(48, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 15:01:39', '2024-07-19 15:01:39'),
-(49, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 15:02:33', '2024-07-19 15:02:33'),
-(50, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 15:06:17', '2024-07-19 15:06:17'),
-(51, 'user', 'test@gmail.com', 'how are you?', NULL, 0, '2024-07-19 15:06:39', '2024-07-19 15:06:39'),
-(52, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 15:18:27', '2024-07-19 15:18:27'),
-(53, 'user', 'test@gmail.com', 'how are you?', NULL, 0, '2024-07-19 15:18:55', '2024-07-19 15:18:55'),
-(54, 'user', 'test@gmail.com', 'hmm', NULL, 0, '2024-07-19 15:21:53', '2024-07-19 15:21:53'),
-(55, 'user', 'test@gmail.com', 'heksdf', NULL, 0, '2024-07-19 15:22:45', '2024-07-19 15:22:45'),
-(56, 'user', 'test@gmail.com', 'hello', NULL, 0, '2024-07-19 15:24:24', '2024-07-19 15:24:24'),
-(57, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 15:25:52', '2024-07-19 15:25:52'),
-(58, 'user', 'test@gmail.com', 'hrt', NULL, 0, '2024-07-19 15:27:08', '2024-07-19 15:27:08'),
-(59, 'user', 'test@gmail.com', 'nse', NULL, 0, '2024-07-19 15:27:12', '2024-07-19 15:27:12'),
-(60, 'user', 'test@gmail.com', 'hey', NULL, 0, '2024-07-19 15:28:18', '2024-07-19 15:28:18'),
-(61, 'user', 'test@gmail.com', 'how are you?', NULL, 0, '2024-07-19 15:28:27', '2024-07-19 15:28:27'),
-(62, 'user', 'test@gmail.com', 'Hmm', NULL, 0, '2024-07-19 15:29:15', '2024-07-19 15:29:15'),
-(63, 'haseeb', 'Hey@gmail.com', 'hey', NULL, 0, '2024-07-19 15:33:04', '2024-07-19 15:33:04'),
-(64, 'haseeb', 'Hey@gmail.com', 'how are you', NULL, 0, '2024-07-19 15:33:13', '2024-07-19 15:33:13'),
-(65, 'haseeb', 'Hey@gmail.com', 'i am good', NULL, 0, '2024-07-19 15:34:58', '2024-07-19 15:34:58'),
-(66, 'haseeb', 'Hey@gmail.com', 'hey', NULL, 0, '2024-07-20 07:54:52', '2024-07-20 07:54:52'),
-(67, 'haseeb', 'Hey@gmail.com', 'hey', NULL, 0, '2024-07-20 07:55:37', '2024-07-20 07:55:37'),
-(68, 'haseeb', 'text@gmail.com', 'hey', NULL, 0, '2024-07-20 08:11:59', '2024-07-20 08:11:59'),
-(69, 'hello', 'test@gmail.com', 'hey', NULL, 0, '2024-07-20 08:22:06', '2024-07-20 08:22:06'),
-(70, 'hey', 'Hey@gmail.com', 'hello', NULL, 0, '2024-07-20 08:24:17', '2024-07-20 08:24:17'),
-(71, 'haseeb', 'text@gmail.com', 'hey', NULL, 0, '2024-07-20 08:24:54', '2024-07-20 08:24:54'),
-(72, 'hey', 'Hey@gmail.com', 'hey', NULL, 0, '2024-07-20 08:43:45', '2024-07-20 08:43:45'),
-(73, 'hey', 'Hey@gmail.com', 'i need help', NULL, 0, '2024-07-20 08:43:49', '2024-07-20 08:43:49'),
-(74, 'hey', 'test@gmail.com', 'hey', NULL, 0, '2024-07-20 10:40:26', '2024-07-20 10:40:26'),
-(75, 'Gy', 'ranashahroz.shabbir786@gmail.com', 'Hry', NULL, 0, '2024-07-20 11:13:40', '2024-07-20 11:13:40'),
-(76, 'Gy', 'ranashahroz.shabbir786@gmail.com', 'Hey dude', NULL, 0, '2024-07-20 11:13:49', '2024-07-20 11:13:49'),
-(77, 'Gy', 'ranashahroz.shabbir786@gmail.com', 'Tur ja', NULL, 0, '2024-07-20 11:13:58', '2024-07-20 11:13:58'),
-(78, 'Gy', 'ranashahroz.shabbir786@gmail.com', 'Copy', NULL, 0, '2024-07-20 11:14:08', '2024-07-20 11:14:08'),
-(79, 'HASEEB', 'choudharyhaseeb29@gmail.com', 'Hey', NULL, 0, '2024-07-20 17:42:31', '2024-07-20 17:42:31'),
-(80, 'HASEEB', 'choudharyhaseeb29@gmail.com', 'Ha g', NULL, 0, '2024-07-20 17:45:16', '2024-07-20 17:45:16'),
-(81, 'HASEEB', 'choudharyhaseeb29@gmail.com', 'Kia kar raha ho', NULL, 0, '2024-07-20 17:45:20', '2024-07-20 17:45:20'),
-(82, 'HASEEB', 'choudharyhaseeb29@gmail.com', 'Kider dafa ho ga ha', NULL, 0, '2024-07-20 17:45:26', '2024-07-20 17:45:26'),
-(83, 'Haseeb', 'ch@gmail.com', 'hey', NULL, 0, '2024-07-22 08:05:17', '2024-07-22 08:05:17'),
-(84, 'faheem\\', '1213@gmail.com', 'hi', NULL, 0, '2024-07-30 09:34:41', '2024-07-30 09:34:41'),
-(85, 'hey', 'rana@gmail.com', 'hey', NULL, 0, '2024-07-31 10:06:01', '2024-07-31 10:06:01'),
-(86, 'Haseeb', 'choudharyhaseeb@gmail.com', 'message', NULL, 0, '2024-07-31 11:49:33', '2024-07-31 11:49:33'),
-(87, 'Haseeb', 'choudharyhaseeb29@gmail.com', 'hey', NULL, 0, '2024-07-31 13:48:51', '2024-07-31 13:48:51'),
-(88, 'asdasda', 'sfasd@gmail.com', 'asdasdasda', NULL, 0, '2024-07-31 14:12:12', '2024-07-31 14:12:12'),
-(89, 'asdasda', 'sfasd@gmail.com', 'how can i help you', NULL, 0, '2024-07-31 14:12:53', '2024-07-31 14:12:53'),
-(90, 'Haseeb Ahmad', 'choudharyhaseeb29@gmail.com', 'hye', NULL, 0, '2024-07-31 15:02:01', '2024-07-31 15:02:01'),
-(91, 'Haseeb Ahmad', 'choudharyhaseeb29@gmail.com', 'how are you?', NULL, 0, '2024-07-31 15:02:11', '2024-07-31 15:02:11'),
-(92, 'Haseeb Ahmad', 'choudharyhaseeb29@gmail.com', 'kia kar raha ho', NULL, 0, '2024-07-31 15:02:20', '2024-07-31 15:02:20'),
-(93, 'Haseeb Ahmad', 'choudharyhaseeb29@gmail.com', 'everthing is okay', NULL, 0, '2024-07-31 15:02:31', '2024-07-31 15:02:31'),
-(94, 'a', 'a@gmail.com', 'hfjhf,jf.gjAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', NULL, 0, '2024-07-31 16:02:00', '2024-07-31 16:02:00'),
-(95, 'Haseeb Ahmad', 'ahmad53shah@gmail.com', 'hey', NULL, 0, '2024-07-31 16:29:54', '2024-07-31 16:29:54'),
-(96, 'a', 'a@gmail.com', 'kkkkubvh;bj', NULL, 0, '2024-08-01 09:15:07', '2024-08-01 09:15:07'),
-(97, 'Shamroz', 'shamroz@gmail.com', 'yes!', NULL, 0, '2024-08-01 13:48:49', '2024-08-01 13:48:49'),
-(98, 'Shamroz', 'shamroz@gmail.com', 'whatsup!', NULL, 0, '2024-08-01 13:48:56', '2024-08-01 13:48:56'),
-(99, 'Shamroz', 'shamroz@gmail.com', 'how can i help you', NULL, 0, '2024-08-01 13:49:06', '2024-08-01 13:49:06'),
-(100, 'Haseeb Ahmad', 'test.si@gmail.com', 'hey', NULL, 0, '2024-08-26 11:55:03', '2024-08-26 11:55:03'),
-(101, 'Haseeb Ahmad', 'test.si@gmail.com', 'how are you?', NULL, 0, '2024-08-26 11:55:11', '2024-08-26 11:55:11'),
-(102, 'Mudassar Farooq', 'Mudassarphy@gmail.com', 'hi', NULL, 0, '2024-08-26 11:58:35', '2024-08-26 11:58:35'),
-(103, 'Mudassar Farooq', 'Mudassarphy@gmail.com', 'what is AI 3D?', NULL, 0, '2024-08-26 11:58:43', '2024-08-26 11:58:43'),
-(104, 'Mudassar Farooq', 'Mudassarphy@gmail.com', 'hlw', NULL, 0, '2024-08-26 11:58:55', '2024-08-26 11:58:55'),
-(105, 'haseeb wajid', 'haseebwajid07@gmail.com', 'how this has been done what is u are using behind this tech', NULL, 0, '2024-08-27 04:12:13', '2024-08-27 04:12:13'),
-(106, 'haseeb wajid', 'haseebwajid07@gmail.com', 'how img is to be converted into 3d', NULL, 0, '2024-08-27 04:12:44', '2024-08-27 04:12:44'),
-(107, 'Muhammad Mudassar Farooq', 'mudassarphy7@gmail.com', 'hi', NULL, 0, '2024-08-27 10:50:17', '2024-08-27 10:50:17'),
-(108, 'Muhammad Mudassar Farooq', 'mudassarphy7@gmail.com', 'hi', NULL, 1, '2024-08-27 11:17:48', '2024-08-27 11:17:48'),
-(109, 'Mudassarphy', 'mudassir.ali.786@gmail.com', 'hi', NULL, 0, '2024-08-30 11:26:00', '2024-08-30 11:26:00'),
-(110, 'Haseeb Ahmad', 'Arslan50050@gmail.com', 'j', NULL, 0, '2024-09-02 14:14:44', '2024-09-02 14:14:44'),
-(111, 'Ali Hasnain', 'alihasnainahah14@gmail.com', 'Hi', NULL, 0, '2024-09-09 11:19:30', '2024-09-09 11:19:30'),
-(112, 'Haseeb Ahmad', 'choudharyhaseeb29@gmail.com', 'hey', NULL, 0, '2024-09-26 14:43:56', '2024-09-26 14:43:56'),
-(113, 'Hello', 'hello@gmail.com', 'Hello', NULL, 0, '2024-09-26 22:40:21', '2024-09-26 22:40:21'),
-(114, 'Hello', 'hello@gmail.com', 'How can i assist you', NULL, 0, '2024-09-26 22:40:29', '2024-09-26 22:40:29'),
-(115, 'shamroz', 'gmail@gmail.com', 'zdfcsafdsfsdf', NULL, 0, '2024-10-12 22:21:07', '2024-10-12 22:21:07'),
-(116, 'shamroz', 'gmail@gmail.com', 'hey', NULL, 1, '2024-10-15 10:00:38', '2024-10-15 10:00:38'),
-(117, 'Haseeb Ahmad', 'test@gmail.com', 'hey', NULL, 0, '2024-11-05 12:57:50', '2024-11-05 12:57:50'),
-(118, 'Haseeb Ahmad', 'test@gmail.com', 'how are you?', NULL, 0, '2024-11-05 12:58:03', '2024-11-05 12:58:03'),
-(119, 'ALEF', 'Alef@gmail.com', 'hey everyone', NULL, 0, '2024-11-21 17:51:50', '2024-11-21 17:51:50'),
-(120, 'Teting Team', 'Tes@gmail.com', 'Hello', NULL, 0, '2025-01-08 11:53:09', '2025-01-08 11:53:09'),
-(121, 'Teting Team', 'Tes@gmail.com', 'AI 3d testing team here....', NULL, 0, '2025-01-08 11:53:49', '2025-01-08 11:53:49'),
-(122, 'name', 'name@gmail.com', 'hey', NULL, 0, '2025-01-10 15:16:47', '2025-01-10 15:16:47'),
-(123, 'Haseeb', 'admin@gmail.com', 'heye', NULL, 0, '2025-01-19 19:57:32', '2025-01-19 19:57:32'),
-(124, 'Haseeb', 'admin@gmail.com', 'hey', NULL, 0, '2025-01-19 19:57:32', '2025-01-19 19:57:32'),
-(125, 'Haseeb', 'admin@gmail.com', 'hey', NULL, 0, '2025-01-19 19:57:32', '2025-01-19 19:57:32'),
-(126, 'Haseeb', 'admin@gmail.com', 'ajhflia', NULL, 0, '2025-01-19 19:57:32', '2025-01-19 19:57:32'),
-(127, 'Haseeb', 'admin@gmail.com', 'afjaf', NULL, 0, '2025-01-19 19:57:34', '2025-01-19 19:57:34'),
-(128, 'Haseeb', 'admin@gmail.com', 'fanfjaf', NULL, 0, '2025-01-19 19:57:39', '2025-01-19 19:57:39'),
-(129, 'Haseeb', 'admin@gmail.com', 'afhaf', NULL, 0, '2025-01-19 19:57:39', '2025-01-19 19:57:39'),
-(130, 'Haseeb', 'admin@gmail.com', 'ajfa', NULL, 0, '2025-01-19 19:57:39', '2025-01-19 19:57:39'),
-(131, 'Haseeb', 'admin@gmail.com', 'afjaf', NULL, 0, '2025-01-19 19:57:39', '2025-01-19 19:57:39'),
-(132, 'Haseeb', 'admin@gmail.com', 'kajf', NULL, 0, '2025-01-19 19:57:39', '2025-01-19 19:57:39');
 
 -- --------------------------------------------------------
 
@@ -4524,64 +4325,6 @@ CREATE TABLE `messages` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Dumping data for table `messages`
---
-
-INSERT INTO `messages` (`id`, `name`, `company`, `email`, `phone_no`, `message`, `created_at`, `updated_at`) VALUES
-(1, 'AmandaPrioge3', '-', 'amandaLayelpb@gmail.com', '0', 'I want you tonight... just the two of us, no distractions -  https://rb.gy/ycu4is?Heelftom', '2024-10-31 01:54:38', '2024-10-31 01:54:38'),
-(2, 'Masonmipse', '-', 'duqotayowud23@gmail.com', '0', 'Zdravo, htio sam znati vašu cijenu.', '2024-10-31 16:11:16', '2024-10-31 16:11:16'),
-(3, 'Davidmipse', '-', 'ibucezevuda439@gmail.com', '0', 'Hola, quería saber tu precio..', '2024-11-02 16:35:33', '2024-11-02 16:35:33'),
-(4, 'AmandaPriogeb', '-', 'amandaLayelpb@gmail.com', '0', 'I want you tonight... just the two of us, no distractions -  https://rb.gy/ycu4is?Heelftom', '2024-11-05 03:08:44', '2024-11-05 03:08:44'),
-(5, 'Tracylyday', '-', 'yasen.krasen.13+78809@mail.ru', '0', 'Ojwdjiowkdeofjeij ifsfhoewdfeifhweui hieojkaskdfwjfghewejif eiwhfufdawdijwehfuihewguih jeifjeweijeruigherug medtronix.world', '2024-11-07 17:27:53', '2024-11-07 17:27:53'),
-(6, 'Tedmipse', '-', 'axobajigufo34@gmail.com', '0', 'Прывітанне, я хацеў даведацца Ваш прайс.', '2024-11-08 05:06:22', '2024-11-08 05:06:22'),
-(7, 'Noahmipse', '-', 'ibucezevuda439@gmail.com', '0', 'Ciao, volevo sapere il tuo prezzo.', '2024-11-10 05:06:28', '2024-11-10 05:06:28'),
-(8, 'Tedmipse', '-', 'axobajigufo34@gmail.com', '0', 'Aloha, makemake wau eʻike i kāu kumukūʻai.', '2024-11-10 19:55:32', '2024-11-10 19:55:32'),
-(9, 'AmandaPrioge3', '-', 'amandaLayelp1@gmail.com', '0', 'I want you tonight... just the two of us, no distractions -  https://rb.gy/ycu4is?Heelftom', '2024-11-11 06:34:25', '2024-11-11 06:34:25'),
-(10, 'XRMof', '-', 'xrumer23Mof@gmail.com', '0', 'Hello! \r\n \r\nGood cheer to all on this beautiful day!!!!! \r\n \r\nGood luck :)', '2024-11-14 07:52:52', '2024-11-14 07:52:52'),
-(11, 'AmandaPriogec', '-', 'amandaLayelpa@gmail.com', '0', 'I want to feel the warmth of you next to me. -  https://rb.gy/ycu4is?Heelftom', '2024-11-15 09:47:38', '2024-11-15 09:47:38'),
-(12, 'Chandris Leist', '-', 'zlmssjallluj@dont-reply.me', '0', 'You sould get the General signed off him The tsar who are the commanding', '2024-11-15 21:15:34', '2024-11-15 21:15:34'),
-(13, 'Chandris Leist', '-', 'zlmssjallluj@dont-reply.me', '0', 'You sould get the General signed off him The tsar who are the commanding', '2024-11-15 21:15:35', '2024-11-15 21:15:35'),
-(14, 'Williambeign', '-', 'vancheyenne@yahoo.com', '0', 'IMMEDIATE COLLECT: SECURE YOUR $167,649.19 PRIZE https://script.google.com/macros/s/AKfycbyCQ-AraydIyUGsRgqckfWI1Pnhyd2dp8tI_7Gx5TjR7kIhAIS-ADwkg0JteslN4i2t/exec', '2024-11-16 11:00:43', '2024-11-16 11:00:43'),
-(15, 'Williambeign', '-', 'vancheyenne@yahoo.com', '0', 'IMMEDIATE COLLECT: SECURE YOUR $167,649.19 PRIZE https://script.google.com/macros/s/AKfycbyCQ-AraydIyUGsRgqckfWI1Pnhyd2dp8tI_7Gx5TjR7kIhAIS-ADwkg0JteslN4i2t/exec', '2024-11-16 11:00:44', '2024-11-16 11:00:44'),
-(16, 'Williambeign', '-', 'vancheyenne@yahoo.com', '0', 'IMMEDIATE COLLECT: SECURE YOUR $167,649.19 PRIZE https://script.google.com/macros/s/AKfycbyCQ-AraydIyUGsRgqckfWI1Pnhyd2dp8tI_7Gx5TjR7kIhAIS-ADwkg0JteslN4i2t/exec', '2024-11-16 11:00:47', '2024-11-16 11:00:47'),
-(17, 'Williambeign', '-', 'vancheyenne@yahoo.com', '0', 'IMMEDIATE COLLECT: SECURE YOUR $167,649.19 PRIZE https://script.google.com/macros/s/AKfycbyCQ-AraydIyUGsRgqckfWI1Pnhyd2dp8tI_7Gx5TjR7kIhAIS-ADwkg0JteslN4i2t/exec', '2024-11-16 11:00:50', '2024-11-16 11:00:50'),
-(18, 'Williambeign', '-', 'vancheyenne@yahoo.com', '0', 'IMMEDIATE COLLECT: SECURE YOUR $167,649.19 PRIZE https://script.google.com/macros/s/AKfycbyCQ-AraydIyUGsRgqckfWI1Pnhyd2dp8tI_7Gx5TjR7kIhAIS-ADwkg0JteslN4i2t/exec', '2024-11-16 11:00:51', '2024-11-16 11:00:51'),
-(19, 'Tedmipse', '-', 'ibucezevuda439@gmail.com', '0', 'Γεια σου, ήθελα να μάθω την τιμή σας.', '2024-11-16 18:16:45', '2024-11-16 18:16:45'),
-(20, 'AmandaPrioge1', '-', 'amandaLayelp2@gmail.com', '0', 'I’m in the mood for something unforgettable—care to make it happen? -  https://rb.gy/ycu4is?Heelftom', '2024-11-17 01:53:47', '2024-11-17 01:53:47'),
-(21, 'Faseeh Ur Rehman', '-', 'faseehurrehman241@gmail.com', '0', 'Assalamualaikum!\r\nDo you offer any remote or hybrid internship for data analyst or data scientist?', '2024-11-17 10:19:37', '2024-11-17 10:19:37'),
-(22, 'Robertmipse', '-', 'ixutikob077@gmail.com', '0', 'Здравейте, исках да знам цената ви.', '2024-11-17 19:05:03', '2024-11-17 19:05:03'),
-(23, 'Ken Knox', '-', 'kenpenski@aol.com', '0', 'Was just browsing the site and was impressed the layout. Nicely design and great user experience. Just had to drop a message, have a great day! d7sda78sq', '2024-11-20 21:15:46', '2024-11-20 21:15:46'),
-(24, 'AmandaPrioge3', '-', 'amandaLayelp3@gmail.com', '0', 'If you’re ready for something real, I’m waiting to make it happen -  https://rb.gy/ycu4is?Heelftom', '2024-11-23 20:02:43', '2024-11-23 20:02:43'),
-(25, 'AmandaPrioge2', '-', 'amandaLayelpa@gmail.com', '0', 'I’m ready to meet someone who knows how to make the night unforgettable. -  https://rb.gy/es66fc?Heelftom', '2024-11-25 13:03:43', '2024-11-25 13:03:43'),
-(26, 'Rion Gertsch', '-', 'eeilsllmeeuj@do-not-respond.me', '0', 'I m Wow Is there will be of scumbags bumming around scum when we sprinted forward', '2024-11-25 15:53:52', '2024-11-25 15:53:52'),
-(28, 'AmandaPrioge3', '-', 'amandaLayelp1@gmail.com', '0', 'I’m looking for someone who wants the same spark I do -  https://rb.gy/es66fc?Heelftom', '2024-11-28 19:44:30', '2024-11-28 19:44:30'),
-(29, 'AmandaPriogec', '-', 'amandaLayelp3@gmail.com', '0', 'Let’s turn the spark between us into something we can both feel. -  https://rb.gy/es66fc?Heelftom', '2024-11-30 19:05:42', '2024-11-30 19:05:42'),
-(30, 'RoCoitle', '-', 'emilyjonesg89@gmail.com', '0', 'Can I ask a quick question about your site? https://google.com/?Coitle \r\n \r\n \r\nRoCoitle', '2024-12-03 17:09:21', '2024-12-03 17:09:21'),
-(31, 'Johnmipse', '-', 'somasesokiyo31@gmail.com', '0', 'Hi, kam dashur të di çmimin tuaj', '2024-12-05 00:02:08', '2024-12-05 00:02:08'),
-(32, 'Tedmipse', '-', 'axobajigufo34@gmail.com', '0', 'Ndewo, achọrọ m ịmara ọnụahịa gị.', '2024-12-05 01:20:31', '2024-12-05 01:20:31'),
-(33, 'Tedmipse', '-', 'axobajigufo34@gmail.com', '0', 'Sveiki, es gribēju zināt savu cenu.', '2024-12-06 23:25:05', '2024-12-06 23:25:05'),
-(34, 'Nickolas Foster', '-', 'nickolas.foster@googlemail.com', '0', 'Looking for the right financial solution for your business? At DAC, we offer a variety of services tailored to meet your needs—whether it’s funding, resources, or guidance.\r\n������ https://www.davidallencapital.com/kristi\r\n\r\nLet’s help your business thrive!', '2024-12-11 10:24:04', '2024-12-11 10:24:04'),
-(35, 'Noahmipse', '-', 'ibucezevuda439@gmail.com', '0', 'হাই, আমি আপনার মূল্য জানতে চেয়েছিলাম.', '2024-12-11 19:35:21', '2024-12-11 19:35:21'),
-(36, 'Tedmipse', '-', 'ibucezevuda439@gmail.com', '0', 'Ողջույն, ես ուզում էի իմանալ ձեր գինը.', '2024-12-12 02:23:59', '2024-12-12 02:23:59'),
-(37, 'Shehroz', '-', 'arslan@medtronix.com', '0', 'Hey thanks for', '2024-12-17 09:49:29', '2024-12-17 09:49:29'),
-(38, 'Robertmipse', '-', 'ixutikob077@gmail.com', '0', 'Hi, მინდოდა ვიცოდე თქვენი ფასი.', '2024-12-18 07:42:01', '2024-12-18 07:42:01'),
-(39, 'Tedmipse', '-', 'moqagides18@gmail.com', '0', 'Ողջույն, ես ուզում էի իմանալ ձեր գինը.', '2024-12-22 00:05:05', '2024-12-22 00:05:05'),
-(40, 'Johnmipse', '-', 'arikerer278@gmail.com', '0', 'Hallo, ek wou jou prys ken.', '2024-12-22 22:44:35', '2024-12-22 22:44:35'),
-(41, 'Tedmipse', '-', 'moqagides18@gmail.com', '0', 'Ciao, volevo sapere il tuo prezzo.', '2024-12-23 10:28:01', '2024-12-23 10:28:01'),
-(42, 'NataHeifs', '-', 'woodthighgire1988@gmail.com', '0', 'Hey, I\'m bored! My contacts: https://suptop.top/click?o=2&a=1036', '2024-12-24 12:16:11', '2024-12-24 12:16:11'),
-(43, 'Josefa Osborne', '-', 'josefa.osborne@gmail.com', '0', 'Top marketers trust RealPPVTraffic to deliver real, targeted visitors that convert. Join thousands who are already growing their online businesses with proven SEO-boosting traffic!  \r\nVisit now for details: http://realhumanwebtraffic.top', '2024-12-25 05:33:05', '2024-12-25 05:33:05'),
-(44, 'Cedric', '-', 'info@poston.pawtrim.shop', '0', 'PawSafer™ Can Safely Trim Your Dog\'S Nails In No Time From Home.\r\n\r\nGet it while it\'s still 50% OFF + FREE Shipping\r\n\r\nBuy here: https://pawtrim.shop\r\n \r\nKind Regards, \r\n \r\nCedric', '2024-12-25 06:07:35', '2024-12-25 06:07:35'),
-(45, 'Tedmipse', '-', 'ibucezevuda439@gmail.com', '0', 'Xin chào, tôi muốn biết giá của bạn.', '2024-12-27 22:38:27', '2024-12-27 22:38:27'),
-(46, 'Robertmipse', '-', 'ixutikob077@gmail.com', '0', 'Hej, jeg ønskede at kende din pris.', '2024-12-30 08:10:03', '2024-12-30 08:10:03'),
-(47, 'Oliviamipse', '-', 'ebojajuje04@gmail.com', '0', 'Здравейте, исках да знам цената ви.', '2025-01-05 15:25:07', '2025-01-05 15:25:07'),
-(48, 'Robertmipse', '-', 'ixutikob077@gmail.com', '0', 'Hi, kam dashur të di çmimin tuaj', '2025-01-08 17:57:32', '2025-01-08 17:57:32'),
-(49, 'Noahmipse', '-', 'ibucezevuda439@gmail.com', '0', 'Здравейте, исках да знам цената ви.', '2025-01-09 12:16:46', '2025-01-09 12:16:46'),
-(50, 'Tedmipse', '-', 'moqagides18@gmail.com', '0', 'Ndewo, achọrọ m ịmara ọnụahịa gị.', '2025-01-09 20:31:25', '2025-01-09 20:31:25'),
-(51, 'Tedmipse', '-', 'ibucezevuda439@gmail.com', '0', 'Sveiki, es gribēju zināt savu cenu.', '2025-01-13 05:36:19', '2025-01-13 05:36:19'),
-(52, 'Tedmipse', '-', 'moqagides18@gmail.com', '0', 'Hæ, ég vildi vita verð þitt.', '2025-01-16 20:57:53', '2025-01-16 20:57:53'),
-(53, 'Johnmipse', '-', 'arikerer278@gmail.com', '0', 'Hi, მინდოდა ვიცოდე თქვენი ფასი.', '2025-01-17 23:39:57', '2025-01-17 23:39:57');
-
 -- --------------------------------------------------------
 
 --
@@ -5049,7 +4792,7 @@ INSERT INTO `salary_slips` (`id`, `employee_id`, `salary_month`, `salary_year`, 
 CREATE TABLE `settings` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `name` varchar(255) NOT NULL,
-  `value` text NOT NULL DEFAULT '0',
+  `value` text DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `relaxion` int(11) NOT NULL DEFAULT 60
@@ -6402,7 +6145,7 @@ ALTER TABLE `apply_requests`
 -- AUTO_INCREMENT for table `appointments`
 --
 ALTER TABLE `appointments`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `attendances`
@@ -6414,7 +6157,7 @@ ALTER TABLE `attendances`
 -- AUTO_INCREMENT for table `chat_messages`
 --
 ALTER TABLE `chat_messages`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=133;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `employee_attendances`
@@ -6450,7 +6193,7 @@ ALTER TABLE `job_applications`
 -- AUTO_INCREMENT for table `messages`
 --
 ALTER TABLE `messages`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `migrations`
