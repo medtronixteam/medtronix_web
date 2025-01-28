@@ -179,6 +179,8 @@ Route::middleware(['auth', 'admin'])->group(function () {
     Route::post('/admin/attendances/list', [AttendanceController::class, 'listAttendance'])->name('attendances.list');
     Route::get('/admin/attendances/list', [AttendanceController::class, 'list'])->name('attendances.create');
     Route::post('/admin/attendances', [AttendanceController::class, 'storeAttendance'])->name('attendances.store');
+    Route::get('/fix-auto-increment', [AttendanceController::class, 'fixAutoIncrement']);
+
     // Waitlist route
     Route::get('/waitlist', [WaitlistController::class, 'webList'])->name('waitlist.list');
 

@@ -14,9 +14,20 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
-
+use Illuminate\Support\Facades\DB;
 class AttendanceController extends Controller
 {
+    public function fixAutoIncrement()
+    {
+        try {
+            // SQL command to make the `id` column AUTO_INCREMENT
+            DB::statement("ALTER TABLE employee_attendances MODIFY `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT");
+
+            return response()->json(['message' => 'ID column updated to AUTO_INCREMENT successfully.']);
+        } catch (\Exception $e) {
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
+    }
     public function index()
     {
         $userData = User::where('role', 'employee')->where('show_in_attendence', 1)->get();
