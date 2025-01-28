@@ -3,6 +3,8 @@
 // app/Http/Controllers/RequestController.php
 
 namespace App\Http\Controllers;
+
+use App\Models\JobApplication;
 use App\Models\Request as UserRequest;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Request;
@@ -56,6 +58,12 @@ class RequestController extends Controller
         $requests = UserRequest::orderBy('id', 'desc')->get();
         return view('admin.request.list', compact('requests'));
     }
+    public function jobRequest()
+    {
+        $requests = JobApplication::latest()->get();
+        return view('admin.request.job_requests', compact('requests'));
+    }
+
     public function show($id)
     {
         $request = UserRequest::findOrFail($id);
