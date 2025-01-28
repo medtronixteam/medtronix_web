@@ -197,8 +197,8 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ request()->routeis('admin.job.request') ? 'active' : '' }} "
-                    href="{{ route('admin.job.request') }}">
+                <a class="nav-link {{ request()->routeis('admin.job.requests') ? 'active' : '' }} "
+                    href="{{ route('admin.job.requests') }}">
 
                     @php
                     $count = \App\Models\JobApplication::count();
