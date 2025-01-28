@@ -12,7 +12,7 @@ return new class extends Migration
     public function up()
 {
     Schema::table('employee_attendances', function (Blueprint $table) {
-        $table->id()->first()->change(); // Ensure 'id' is auto-incremented
+        $table->bigIncrements('id')->change(); // Ensures 'id' is auto-increment
     });
 }
 
@@ -22,7 +22,7 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('employee_attendances', function (Blueprint $table) {
-            $table->dropIfExists('id'); 
+            $table->unsignedBigInteger('id')->change(); // Reverts the change
         });
     }
 };
