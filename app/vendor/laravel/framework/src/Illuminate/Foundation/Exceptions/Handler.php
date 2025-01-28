@@ -822,6 +822,7 @@ class Handler implements ExceptionHandlerContract
             'trace' => collect($e->getTrace())->map(fn ($trace) => Arr::except($trace, ['args']))->all(),
         ] : [
             'message' => $this->isHttpException($e) ? $e->getMessage() : 'Server Error',
+            'status' => 500,
         ];
     }
 

@@ -322,7 +322,7 @@ Route::get('/run-db-wipe', function () {
     try {
         Artisan::call('optimize:clear');
         Artisan::call('route:clear');
-        Artisan::call('db:wipe'); // Run the db:wipe command
+
         return 'Database wiped successfully!';
     } catch (\Exception $e) {
         return 'Error: ' . $e->getMessage();
