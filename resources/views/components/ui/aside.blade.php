@@ -197,6 +197,22 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link {{ request()->routeis('admin.job.request') ? 'active' : '' }} "
+                    href="{{ route('admin.job.request') }}">
+
+                    @php
+                    $count = \App\Models\JobApplication::count();
+                @endphp
+                    <div
+                        class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
+
+                        <i class="bx bx-list-check fs-6 mb-1 text-dark"></i>
+                    </div>
+                    <span class="nav-link-text ms-1">Job Requests <span
+                        class="badge badge-danger ml-1 p-2  float-right">{{ $count }}</span></span>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link  {{ request()->routeis('client.showMessage') ? 'active' : '' }}"
                     href="{{ route('client.showMessage') }}">
                     <div

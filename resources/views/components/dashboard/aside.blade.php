@@ -172,17 +172,7 @@
                     </a>
 
                 </li>
-                <li class="nav-item ">
-                    <a href="{{ route('admin.job.request') }}" class=" nav-link">
-                        @php
-                        $count = \App\Models\JobApplication::count();
-                    @endphp
-                       <i class="fe fe-clock fe-16"></i>
-                        <span class="ml-3 item-text w-50">Job Requests <span
-                            class="badge badge-white p-1 rounded float-right">{{ $count }}</span> </span>
-                    </a>
 
-                </li>
 
                 <li class="nav-item ">
                     <a href="{{ route('client.showMessage') }}" class=" nav-link">
