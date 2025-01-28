@@ -64,7 +64,7 @@
                         </label>
                         <input
 
-                          type="file" wire:model="resume"
+                          type="file" accept="application/pdf" wire:model="resume"
                           class="formbold-form-file"
                         />
                     </div>

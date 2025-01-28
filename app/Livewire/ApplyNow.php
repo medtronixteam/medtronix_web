@@ -50,8 +50,7 @@ class ApplyNow extends Component
     {
         $this->validate([
             'experience' => 'required|string',
-            'cover_letter' => 'nullable|string',
-            'resume' => 'file|mimes:pdf,doc,docx|max:10240', // 10MB max
+            'cover_letter' => 'nullable|string', // 10MB max
         ]);
 
         $resumePath = $this->resume ? $this->resume->store('resumes', 'public') : null;

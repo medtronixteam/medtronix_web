@@ -28,6 +28,7 @@
               <td>{{ $request->experience }} </td>
               <td>{{ $request->position_applied }} </td>
 
+
               {{-- <td>{!! Illuminate\Support\Str::limit($request->details, 30, '...') !!}</td> --}}
               <td>{{ $request->created_at}}</td>
 
