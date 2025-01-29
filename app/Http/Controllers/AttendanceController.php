@@ -21,7 +21,7 @@ class AttendanceController extends Controller
     {
         try {
             // SQL command to make the `id` column AUTO_INCREMENT
-            DB::statement("ALTER TABLE employee_attendances MODIFY `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT");
+            DB::statement("ALTER TABLE tasks MODIFY `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT");
 
             return response()->json(['message' => 'ID column updated to AUTO_INCREMENT successfully.']);
         } catch (\Exception $e) {

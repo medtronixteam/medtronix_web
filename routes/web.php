@@ -83,17 +83,7 @@ Route::middleware(['auth'])->group(function () {
 });
 
 
-Route::get('/import-sql', function () {
-    $path = public_path('medtyeyo_medtronix.sql'); // Path to your .sql file
-    $sql = file_get_contents($path);
 
-    try {
-        DB::unprepared($sql); // Execute the SQL script
-        return 'SQL file imported successfully!';
-    } catch (\Exception $e) {
-        return 'Error: ' . $e->getMessage();
-    }
-});
 Route::middleware(['auth', 'admin'])->group(function () {
 
     Route::post('settings/qrCode', [SettingController::class, 'generate'])->name('settings.qrCode');
@@ -179,7 +169,7 @@ Route::middleware(['auth', 'admin'])->group(function () {
     Route::post('/admin/attendances/list', [AttendanceController::class, 'listAttendance'])->name('attendances.list');
     Route::get('/admin/attendances/list', [AttendanceController::class, 'list'])->name('attendances.create');
     Route::post('/admin/attendances', [AttendanceController::class, 'storeAttendance'])->name('attendances.store');
-    //Route::get('/fix-auto-increment', [AttendanceController::class, 'fixAutoIncrement']);
+    Route::get('/fix-auto-increment', [AttendanceController::class, 'fixAutoIncrement']);
 
     // Waitlist route
     Route::get('/waitlist', [WaitlistController::class, 'webList'])->name('waitlist.list');
