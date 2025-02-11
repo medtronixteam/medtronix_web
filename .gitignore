@@ -17,3 +17,6 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+app/vendor/symfony/console/Resources/bin/ghiddeninput.exe
+app/vendor/symfony/console/Resources/bin/ghiddeninput.ico
+app/vendor/symfony/console/Resources/bin/hiddeninput.exe

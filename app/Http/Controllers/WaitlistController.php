@@ -59,9 +59,9 @@ class WaitlistController extends Controller
                 'company_name' => $request->company_name,
                 'industry' => $request->industry,
             ];
-            Mail::mailer('secondary')->to($request->email)->send(new WaitRegisterMail($request->name));
+           // Mail::mailer('secondary')->to($request->email)->send(new WaitRegisterMail($request->name));
 
-            Mail::to("arslan50050@gmail.com")->send(new WaitAlertMail($dataToSave));
+        //    Mail::to("arslan50050@gmail.com")->send(new WaitAlertMail($dataToSave));
           //  Mail::to("medtronix123@gmail.com")->send(new WaitAlertMail($dataToSave));
             Waitlist::create($dataToSave);
 
